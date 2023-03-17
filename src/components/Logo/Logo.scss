@@ -1,0 +1,37 @@
+.logo {
+    display: inline-block;
+}
+
+.logo.row {
+    .logo__sign {
+        margin-right: 8px;;
+    };
+}
+.logo.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo__sign.accent{
+    fill: #FF8A63;
+}
+.logo__sign.white{
+    fill: #FFFFFF;
+}
+
+.logo__sign.s {
+    width: 36px;
+}
+.logo__sign.m {
+    width: 56px;
+}
+
+
+
+.logo__name.accent{
+    fill: #45525B;
+}
+.logo__name.s {
+    width: 58.85px;
+}
+
