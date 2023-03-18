@@ -1,3 +1,15 @@
 {
-    "menu": ["Listings", "Newsroom", "Contact", "Our team"]
+    "menu": ["Listings", "Newsroom", "Contact", "Our team"],
+    "ourGoal": {
+        "title": "Our goal",
+        "secondaryTitle": "We are dedicated to finding a house that you'll love.",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere. Interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
+        "manager": {
+            "name": "Ava Orn",
+            "position": "Managing Broker",
+            "photo": "https://images.unsplash.com/photo-1627161683077-e34782c24d81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cmVhbCUyMGVzdGF0ZSUyMGFnZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1200&q=60"
+        }
+
+    }
 }
+

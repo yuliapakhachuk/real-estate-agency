@@ -1,0 +1,20 @@
+.secondaryTitile{
+    display: block;
+    font-size: 48px;
+    line-height: 53px;
+    max-width: 490px;
+
+    color: #45525B;
+}
+.text {
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #333333;
+}
+
+.title__info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
