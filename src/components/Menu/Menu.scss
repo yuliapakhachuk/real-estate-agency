@@ -1,0 +1,17 @@
+.menu {
+    font-size: 15px;
+    line-height: 16px;
+    
+    &__option {
+        display: inline-block;
+        text-decoration: none;
+        color: #444444;
+        
+        padding-top: 25px;
+        padding-bottom: 25px;
+        
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+    }
+}

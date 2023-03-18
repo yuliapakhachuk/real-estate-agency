@@ -1,4 +1,7 @@
 header {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
