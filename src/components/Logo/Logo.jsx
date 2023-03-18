@@ -7,7 +7,7 @@ import "./Logo.scss";
 export function Logo ({color, type, size}) {
         const logoColor = color === "white" ? color : "accent"; 
         const logoType = type === "column" ? type : "row";
-        const logoSize = size === ("s" || "m" || "l") ? size : "s";
+        const logoSize = size === "m" ? size : "s";
         
         
     return(

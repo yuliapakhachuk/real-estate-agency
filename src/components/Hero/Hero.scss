@@ -1,0 +1,20 @@
+.hero__section {
+    padding-top: 245px;
+    padding-bottom: 273px;
+
+    background-image: linear-gradient(rgba(250, 250, 252, 0.78), rgba(250, 250, 252, 0.78)), url(./hero_bg.png);
+    
+    
+    h1 {
+        font-size: 32px;
+        line-height: 45px;
+        text-align: center;
+        color: #45525B;
+
+        max-width: 525px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
+
+

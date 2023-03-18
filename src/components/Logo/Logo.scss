@@ -1,16 +1,25 @@
 .logo {
     display: inline-block;
+
+    &.row {
+        .logo__sign {
+            margin-right: 8px;;
+        };
+    }
+    
+    &.column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .logo__sign {
+            margin-bottom: 12px;;
+        };
+
+    }
 }
 
-.logo.row {
-    .logo__sign {
-        margin-right: 8px;;
-    };
-}
-.logo.column {
-    display: flex;
-    flex-direction: column;
-}
 
 .logo__sign.accent{
     fill: #FF8A63;
@@ -20,17 +29,21 @@
 }
 
 .logo__sign.s {
-    width: 36px;
+    width: 35px;
 }
+
 .logo__sign.m {
-    width: 56px;
+    width: 55px;
 }
-
-
 
 .logo__name.accent{
     fill: #45525B;
 }
+
+.logo__name.white{
+    fill: #FFFFFF;
+}
+
 .logo__name.s {
     width: 58.85px;
 }
