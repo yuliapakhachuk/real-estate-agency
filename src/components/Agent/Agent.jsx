@@ -1,13 +1,13 @@
 import "./Agent.scss";
 
 export function Agent({agent}) {
-    const {name, posotion, photo} = agent;
-    return <ul>
+    const {name, position, photo} = agent;
+    return <ul className="agent">
         <li className="agent__photo">
             <img src={photo} alt="agent"/>
         </li>
         <li className="agent__name">{name}</li>
-        <li className="agent__position">{posotion}</li>
+        <li className="agent__position">{position}</li>
     </ul>
 }
 

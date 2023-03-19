@@ -9,7 +9,25 @@
             "position": "Managing Broker",
             "photo": "https://images.unsplash.com/photo-1627161683077-e34782c24d81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cmVhbCUyMGVzdGF0ZSUyMGFnZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1200&q=60"
         }
-
+    },
+    "ourRequirements": {
+        "title": "Our requirements",
+        "secondaryTitle": "How we choose our listings.",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus.",
+        "features": [
+            {
+                "name": "Stellar locations",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            },
+            {
+                "name": "High quality builds",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            },
+            {
+                "name": "Expert interior design",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            }
+        ]
     }
 }
 

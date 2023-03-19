@@ -1,0 +1,40 @@
+.agent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    list-style: none;
+    height: 80px;
+    margin-top: 20px 0 0 0;
+
+    &__photo {
+        border: 2px solid #CACCD1;
+        border-radius: 50%;
+        overflow: hidden;
+
+        width: 80px;
+        height: 80px;
+        margin-right: 8px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    &__name {
+        font-size: 16px;
+        line-height: 22px;
+        color: #45525B;
+    }
+
+    &__position {
+        font-size: 12px;
+        line-height: 17px;
+
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
+        color: #6F7278;
+    }
+}

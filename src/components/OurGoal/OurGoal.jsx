@@ -13,8 +13,10 @@ export function OurGoal({ ourGoal }) {
                     {secondaryTitle}
                 </span>
             </Title>
-        <p className="text">{text}</p>
-        <Agent agent={manager}/>
+            <p className="text">
+                {text}
+                <Agent agent={manager}/>
+            </p>
         </div>
     </Section>
 }
