@@ -1,10 +1,8 @@
-.requirements__secondary,
-.requirements__text {
-    max-width: 600px;
-    text-align: center;
-}
-
 .requirements__secondary {
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+
     font-size: 36px;
     line-height: 43px;
 
@@ -13,9 +11,30 @@
 }
 
 .requirements__text{
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+
     font-size: 18px;
     line-height: 22px;
     
     color: #6F7278;
 }
+.requirements__wrapper{
+    display: flex;
+    padding-left: 170px;
+    padding-right: 170px;
+}
 
+.requirements__img{
+    width: 480px;
+    margin-right: 32px;
+}
+
+.prewiev__img {
+    padding-top: 600px;
+    background-image: url(./prew_img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}

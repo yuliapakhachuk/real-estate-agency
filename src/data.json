@@ -28,6 +28,76 @@
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             }
         ]
+    },
+    "CurrentListings": {
+        "title": "Current listings",
+        "secondaryTitle": "What we have in store for you.",
+        "text": "Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.",
+        "listings": [
+            {
+                "img": "",
+                "type": "House",
+                "name": "California St.",
+                "info": {
+                    "beds": 16,
+                    "bathrooms": 2,
+                    "rooms": 11
+                }
+            },
+            {
+                "img": "",
+                "type": "Villa",
+                "name": "Welford Gardens",
+                "info": {
+                    "beds": 12,
+                    "bathrooms": 3,
+                    "rooms": 16
+                }
+            },
+            {
+                "img": "",
+                "type": "House",
+                "name": "The Grove",
+                "info": {
+                    "beds": 12,
+                    "bathrooms": 2,
+                    "rooms": 14
+                }
+            },
+            {
+                "img": "",
+                "type": "Apartment",
+                "name": "Wallace St.",
+                "info": {
+                    "beds": 10,
+                    "bathrooms": 2,
+                    "rooms": 8
+                }
+            },
+            {
+                "img": "",
+                "type": "Apartment",
+                "name": "Dwight Way",
+                "info": {
+                    "beds": 8,
+                    "bathrooms": 1,
+                    "rooms": 6
+                }
+            },
+            {
+                "img": "",
+                "type": "House",
+                "name": "North Avenue",
+                "info": {
+                    "beds": 14,
+                    "bathrooms": 3,
+                    "rooms": 11
+                }
+            }
+
+
+
+        ]
     }
 }
 
